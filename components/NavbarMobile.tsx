@@ -9,7 +9,7 @@ type NavbarMobileProps = {
 
 const NavbarMobile = ({ closeMenu }: NavbarMobileProps) => {
   return (
-    <aside className="flexBetween max-container padding-container relative z-50 py-5 bg-green-50 lg:hidden">
+    <aside className="flexBetween max-container padding-container relative z-50 py-5 bg-green-50 transition ease-in-out h-full">
       <ul className="flex flex-col gap-10 ">
         {NAV_LINKS.map((link) => (
           <Link
